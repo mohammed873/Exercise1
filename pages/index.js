@@ -51,7 +51,7 @@ const addUser = async () => {
   const firstName = document.getElementById('firstName').value 
   const lastName = document.getElementById('lastName').value
   const userName = document.getElementById('userName').value
-  const status = document.getElementById('status').value
+  const status = document.querySelector('.status').value
   const registrationNumber = document.getElementById('registrationNumber').value
   const createdDate = document.getElementById('createdDate').value
 
@@ -167,7 +167,7 @@ useEffect(() => {
                   <label htmlFor="lastName" className="col-form-label">Last Name</label>
                   <input type="text" className="form-control" id="lastName" placeholder="Enter last name" />
                 </div>
-                <select className="form-select" className={styles.selectContainer} id="status">
+                <select className="form-select status" id={styles.selectContainer}>
                   <option defaultValue="valide">valide</option>
                   <option defaultValue="on validation">on validation</option>
                   <option defaultValue="Rejected">Rejected</option>
