@@ -30,11 +30,6 @@
   background: transparent;
   cursor: pointer;
 }
-#deleteBtn{
-  border: none ;
-  background: transparent;
-  cursor: pointer;
-}
 #table {
   width: 90%;
   margin: auto;
