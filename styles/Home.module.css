@@ -1,0 +1,110 @@
+
+.main{
+  height: 100vh;
+}
+.dropeffectMain{
+  filter: blur(5px);
+  height: 100vh;
+}
+.valide , .rejected ,.on_validation{
+  padding: 5%;
+  border-radius: 8%;
+  color: white;
+}
+.valide {
+  background-color: #5BE881;
+}
+.rejected {
+  background-color: #FF0000;
+}
+.on_validation {
+  background-color: #FDB64D;
+}
+.deletebtn {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+.deletebtn::focus {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+#table {
+  width: 90%;
+  margin: auto;
+  -webkit-box-shadow: 0px 3px 9px #5d3d3d61;
+  box-shadow: 0px 3px 9px #5d3d3d61;
+  padding: 3%;
+  height: 80vh;
+  overflow-y: scroll;
+}
+.savebtnContainer{
+  width: 90%;
+  margin: auto;
+  margin-top: 55px;
+  box-shadow: 0px 3px 9px #5d3d3d61;
+  height: 9vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 19px;
+}
+.savebtnContainer button{
+  margin-right: 11px;
+  color: #766767 !important;
+}
+.formContainer{
+  width: 60%;
+  margin: auto;
+  -webkit-box-shadow: 0px 3px 9px #5d3d3d61;
+  box-shadow: 0px 3px 9px #5d3d3d61;
+  position: sticky;
+  bottom: 24%;
+  padding: 1%;
+  background: white;
+  display: none;
+}
+.showFormContainer{
+  width: 60%;
+  margin: auto;
+  -webkit-box-shadow: 0px 3px 9px #5d3d3d61;
+  box-shadow: 0px 3px 9px #5d3d3d61;
+  position: sticky;
+  bottom: 24%;
+  padding: 1%;
+  background: white;
+  display: block;
+}
+.Row{
+  display: flex;
+  justify-content: flex-start;
+}
+.form-group {
+  margin-bottom: 1rem;
+}
+#inputContainer{
+  margin-left: 15px !important;
+  width: 30% !important;
+  margin-top: -13px;
+}
+.selectContainer{
+  height: 37px;
+  margin-left: 20px !important;
+  width: 30% !important;
+  margin-top: 25px;
+  border-radius: 3%;
+}
+.saveBtn{
+  text-align: end;
+  padding: 1%;
+}
+.CancelBtn{
+  float: right;
+  cursor: pointer;
+}
+.title{
+  font-size: 26px;
+  margin-left: 19px;
+  color: #764b4b;
+}
