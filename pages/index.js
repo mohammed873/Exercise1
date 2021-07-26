@@ -6,6 +6,7 @@ import styles  from '../styles/Home.module.css';
 import axios from 'axios';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; 
 import { faTimes, faTrash } from "@fortawesome/free-solid-svg-icons"; 
+import Script from 'next/script'
 
 
 export default function Home() {
