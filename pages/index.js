@@ -136,7 +136,7 @@ useEffect(() => {
                 <td>{user.userName}</td>
                 <td>{user.registrationNumber}</td>
                 <td>
-                  <button className={styles.deletebtn} onClick={ () => deleteUser(user.id)} >    
+                  <button className={styles.deletebtn} id={deleteBtn} onClick={ () => deleteUser(user.id)} >    
                     <FontAwesomeIcon icon={faTrash}></FontAwesomeIcon> 
                   </button>
                 </td>

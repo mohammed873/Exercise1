@@ -26,9 +26,14 @@
   cursor: pointer !important;
 }
 .deletebtn::focus {
-  border: none;
-  background: transparent;
-  cursor: pointer;
+  border: none !important;
+  background: transparent !important;
+  cursor: pointer !important;
+}
+#deleteBtn{
+  border: none !important;
+  background: transparent !important;
+  cursor: pointer !important;
 }
 #table {
   width: 90%;
