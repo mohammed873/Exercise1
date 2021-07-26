@@ -21,9 +21,9 @@
   background-color: #FDB64D;
 }
 .deletebtn {
-  border: none;
-  background: transparent;
-  cursor: pointer;
+  border: none !important;
+  background: transparent !important;
+  cursor: pointer !important;
 }
 .deletebtn::focus {
   border: none;
