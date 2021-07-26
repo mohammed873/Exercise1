@@ -40,7 +40,7 @@ const emptyInput = async () => {
   document.getElementById('firstName').value = ""  
   document.getElementById('lastName').value = "" 
   document.getElementById('userName').value = "" 
-  document.getElementById('status').value = "" 
+  document.querySelector('.status').value = "" 
   document.getElementById('registrationNumber').value = ""  
   document.getElementById('createdDate').value = "" 
 
